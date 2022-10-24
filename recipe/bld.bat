@@ -1,4 +1,5 @@
 @echo on
+conda.exe install p7zip -p %BUILD_PREFIX% --yes --quiet -c conda-forge
 mkdir %LIBRARY_BIN%
 7z x 22621.1.220506-1250.ni_release_WindowsSDK.iso -aoa
 if errorlevel 1 exit 1

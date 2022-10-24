@@ -15,7 +15,6 @@ build:
 
 requirements:
   build:
-    - 7zip
   host:
   run:
   run_constrained:
