@@ -1,6 +1,6 @@
 @echo on
 mkdir %LIBRARY_BIN%
-7z x 20348.1.210507-1500.fe_release_WindowsSDK.iso -aoa
+7z x 22621.1.220506-1250.ni_release_WindowsSDK.iso -aoa
 if errorlevel 1 exit 1
 msiexec /a "%SRC_DIR%\Installers\Universal CRT Redistributable-x86_en-us.msi" /qb TARGETDIR="%SRC_DIR%\tmp"
 if errorlevel 1 exit 1

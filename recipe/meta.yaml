@@ -1,13 +1,13 @@
 {% set name = "ucrt" %}
-{% set version = "10.0.20348.0" %}
+{% set version = "10.0.22621.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://software-download.microsoft.com/download/sg/20348.1.210507-1500.fe_release_WindowsSDK.iso
-  sha256: a0cdc3fc9db69084c8dd8c09ee153c1a168366ac4dfc3d890abbf0bf17e635dc
+  url: https://software-static.download.prss.microsoft.com/dbazure/888969d5-f34g-4e03-ac9d-1f9786c66749/22621.1.220506-1250.ni_release_WindowsSDK.iso
+  sha256: 0412fc77e364226c9395e3188a2d0ac5888317fecfba7bc2dbe003c2ddb5b3d3
 
 build:
   number: 0
